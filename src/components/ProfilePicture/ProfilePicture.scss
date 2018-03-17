@@ -1,0 +1,14 @@
+@import '../../styles/colour';
+
+.profile-picture {
+    margin: 30px auto 20px;
+    width: 150px;
+    height: 150px;
+
+    img {
+        width: 100%;
+        border-radius: 50%;
+        border: 4px solid $white;
+        box-shadow: 5px 5px 10px 1px $border-color;
+    }
+}
