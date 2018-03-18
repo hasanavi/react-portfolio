@@ -8,7 +8,8 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-foundation": "^0.9.4",
-    "react-scripts": "1.1.1"
+    "react-scripts": "1.1.1",
+    "react-twitter-widgets": "^1.7.1"
   },
   "scripts": {
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",

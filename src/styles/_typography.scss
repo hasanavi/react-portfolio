@@ -1,25 +1,6 @@
-@import './fonts.scss';
-@import './colour.scss';
-
-%dosis {
-    font-family: 'Dosis', sans-serif;
-    font-weight: 400;
-}
-
-%dosis-bold {
-    font-family: 'Dosis', sans-serif;
-    font-weight: 600;
-}
-
-%work-sans {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 400;
-}
-
-%work-sans-bold {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 700;
-}
+@import './fonts';
+@import './colour';
+@import './mixin';
 
 html,
 body {
@@ -30,11 +11,12 @@ body {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    @extend %dosis-bold;
+    @include font-dosis(bold);
     margin-bottom: 1rem;
 }
 
 h1, .h1 {
+    text-transform: uppercase;
     font-size: 32px;
 }
 
@@ -44,7 +26,7 @@ h2, .h2 {
 
 p,
 .body-copy {
-    @extend %work-sans;
+    @include font-work-sans();
     margin: 0;
     margin-bottom: 1rem;
 }
@@ -55,4 +37,8 @@ p,
 
 .tertiary-color {
     color: $tertiary-color
+}
+
+.main-content {
+    padding-top: 75px;
 }

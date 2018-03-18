@@ -1,14 +1,14 @@
 @import '../../../styles/colour';
-@import '../../../styles/typography';
+@import '../../../styles/mixin';
 
 .navigation-item {
 
     &__link {
-        @extend %dosis-bold;
+        @include font-dosis (bold);
         border-top: 3px solid $border-color;
         text-decoration: none;
         color: $primary-color;
-        padding: 10px 0 10px 3px;
+        padding: 8px 0 8px 3px;
         display: block;
         transition: all 0.3s ease-in;
         position: relative;

@@ -1,0 +1,19 @@
+@mixin font-dosis ($weight: 400) {
+    @if $weight == 'bold' {
+        $weight: 600;
+    } @else {
+        $weight: 400;
+    }
+    font-family: 'Dosis', sans-serif;
+    font-weight: $weight;
+}
+
+@mixin font-work-sans($weight: 400) {
+    @if $weight == 'bold' {
+        $weight: 700;
+    } @else {
+        $weight: 400;
+    }
+    font-family: 'Work Sans', sans-serif;
+    font-weight: $weight;
+}
