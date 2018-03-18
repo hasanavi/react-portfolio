@@ -1,6 +1,7 @@
 import React from 'react';
 import ProfilePicture from '../../components/ProfilePicture/ProfilePicture';
 import Intro from '../../components/Intro/Intro';
+import Navigation from '../../components/Navigation/Navigation';
 
 import './Layout.css';
 
@@ -12,6 +13,7 @@ const Layout = (props) => (
                 <Intro className="h1 short">
                     I am a<span className="secondary-color">Javascript</span> <span className="tertiary-color">Enthusiast</span>
                 </Intro>
+                <Navigation />
             </aside>
             <main className="cell auto" id="main-content">
                 {props.children}

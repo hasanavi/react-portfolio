@@ -1,0 +1,11 @@
+@import '../../styles/colour';
+
+.navigation {
+    &__list {
+        display: block;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        border-bottom: 3px solid $border-color;
+    }
+}

@@ -1,0 +1,28 @@
+@import '../../../styles/colour';
+@import '../../../styles/typography';
+
+.navigation-item {
+
+    &__link {
+        @extend %dosis-bold;
+        border-top: 3px solid $border-color;
+        text-decoration: none;
+        color: $primary-color;
+        padding: 10px 0 10px 3px;
+        display: block;
+        transition: all 0.3s ease-in;
+        position: relative;
+        left: 0;
+        
+        &:hover,
+        &:focus,
+        &:active {
+            color: $tertiary-color;
+            padding-left: 10px;
+        }
+
+        &--active {
+            background-color: lighten($tertiary-color,38%);
+        }
+    }
+}
