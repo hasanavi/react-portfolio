@@ -31,14 +31,16 @@ p,
     margin-bottom: 1rem;
 }
 
+b,
+strong,
+em {
+    @include font-work-sans('bold');
+}
+
 .secondary-color {
     color: $secondary-color;
 }
 
 .tertiary-color {
     color: $tertiary-color
-}
-
-.main-content {
-    padding-top: 75px;
 }

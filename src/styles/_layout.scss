@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.main-content {
+
+    @include breakpoint(medium) {
+        padding-top: 75px;
+    }
+}

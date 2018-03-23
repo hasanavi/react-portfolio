@@ -4,8 +4,6 @@ import Intro from '../../components/Intro/Intro';
 import Navigation from '../../components/Navigation/Navigation';
 import TwitterTimeline from '../../components/TwitterTimeline/TwitterTimeline';
 
-import './Layout.css';
-
 const Layout = (props) => (
     <div className="grid-container">
         <div className="grid-x grid-padding-x">
