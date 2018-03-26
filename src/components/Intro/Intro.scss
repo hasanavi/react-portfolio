@@ -20,7 +20,11 @@
         font-size: 24px;
 
        .intro-text {
-           
+           display: block;
+        }
+
+        .intro-copy {
+            font-size: 20px;
         }
     }
 }

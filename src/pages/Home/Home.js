@@ -4,13 +4,13 @@ import KeepInTouch from '../../components/KeepInTouch/KeepInTouch';
 
 import clients from '../../assets/images/clients.png';
 
-const homePage = (props) => (
+const home = (props) => (
     <React.Fragment>
         <h1>About Me</h1>
         <Intro className="long" >
-            <p className="intro-text">Hello, My name is Hasan Azizul Haque</p>
-            <p className="intro-copy">I'm a London based Javascript Developer. I have over 10 years experience (4 years full stack + 6 years front-end) 
-                developing web and mobile application. I love building unique, efficient site and passionate about writing clean code.</p>
+            <span className="intro-text">Hello, My name is Hasan Azizul Haque</span>
+            <span className="intro-copy">I'm a London based Javascript Developer. I have over 10 years experience (4 years full stack + 6 years front-end) 
+                developing web and mobile application. I love building unique, efficient site and passionate about writing clean code.</span>
         </Intro>
         <KeepInTouch />
         <h2>I've been lucky to work on these projects:</h2>
@@ -18,4 +18,4 @@ const homePage = (props) => (
     </React.Fragment>
 );
 
-export default homePage;
+export default home;
