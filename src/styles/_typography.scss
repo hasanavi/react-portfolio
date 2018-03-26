@@ -13,10 +13,10 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     @include font-dosis(bold);
     margin-bottom: 1rem;
+    text-transform: uppercase;
 }
 
 h1, .h1 {
-    text-transform: uppercase;
     font-size: 32px;
 }
 
@@ -24,11 +24,28 @@ h2, .h2 {
     font-size: 24px;
 }
 
+h3, .h3 {
+    font-size: 20px;
+}
+
+h4, .h4 {
+    font-size: 18px;
+}
+
+h5, .h5 {
+    font-size: 16px;
+}
+
 p,
 .body-copy {
     @include font-work-sans();
     margin: 0;
     margin-bottom: 1rem;
+}
+
+a {
+    @include font-dosis(bold);
+    color: $primary-color;
 }
 
 b,
@@ -43,4 +60,8 @@ em {
 
 .tertiary-color {
     color: $tertiary-color
+}
+
+.text-center {
+    text-align: center;
 }

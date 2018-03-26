@@ -13,7 +13,7 @@ const home = (props) => (
                 developing web and mobile application. I love building unique, efficient site and passionate about writing clean code.</span>
         </Intro>
         <KeepInTouch />
-        <h2>I've been lucky to work on these projects:</h2>
+        <h2 className="h3 text-center">I've been lucky to work on these projects:</h2>
         <img src={clients} alt="clients logo" />
     </React.Fragment>
 );
