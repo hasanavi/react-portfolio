@@ -1,7 +1,13 @@
 import React from 'react';
 
+import './KeepInTouch.css';
+
 const keepInTouch = (props) => (
-    <p>Feel free to keep in touch by:</p>
+    <div className='keep-in-touch'>
+        <p>Feel free to keep in touch by:</p>
+        <div className='keep-in-touch__links'>
+        </div>
+    </div>
     
 );
 
