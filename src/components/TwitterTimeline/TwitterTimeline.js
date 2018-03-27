@@ -11,7 +11,6 @@ const twitterTimeline = (props) => (
       username: props.userName,
       height: '350'
     }}
-    onLoad={() => console.log('Timeline is loaded!')}
   />
 );
 
