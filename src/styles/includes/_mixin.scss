@@ -17,3 +17,15 @@
     font-family: 'Work Sans', sans-serif;
     font-weight: $weight;
 }
+
+@mixin global-border($border-top: true, $border-bottom: false) {
+    $border-style: 3px solid $profile-border-color;
+    
+    @if $border-top {
+        border-top: $border-style;
+    }
+
+    @if $border-bottom {
+        border-bottom: $border-style;
+    }
+}

@@ -1,4 +1,4 @@
-@import '../../styles/colour';
+@import '../../styles/all-includes';
 
 .navigation {
     margin-bottom: 10px;
@@ -8,6 +8,6 @@
         list-style-type: none;
         padding: 0;
         margin: 0;
-        border-bottom: 3px solid $border-color;
+        border-bottom: 3px solid $profile-border-color;
     }
 }

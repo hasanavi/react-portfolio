@@ -1,8 +1,8 @@
 
 
-@import './styles/foundation-settings';
-@import './styles/vendors/foundation/foundation';
+@import './styles/all-includes';
 
+@import './styles/vendors/foundation/foundation';
 
 // @include foundation-everything(true);
 
@@ -49,5 +49,6 @@
 @include foundation-visibility-classes;
 // @include foundation-float-classes;
 
-@import './styles/_typography';
-@import './styles/_layout';
+
+@import './styles/typography';
+@import './styles/layout';

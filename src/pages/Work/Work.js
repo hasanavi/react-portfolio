@@ -1,29 +1,18 @@
 import React from 'react';
-import testImg from '../../assets/images/yahoo-hackathon.jpg';
+import ArticleListItem from '../../components/ArticleListItem/ArticleListItem';
+
+import nationalTrust from '../../assets/images/work/national-trust.jpg';
 
 const work = (props) => (
     <React.Fragment>
-        <div className="grid-x grid-padding-x">
-            <div className="cell small-12">
-                <h1>Work</h1>
-            </div>
-        </div>
-        <div className="grid-x grid-padding-x">
-            <div className="cell small-12 medium-5">
-                HSBC Login
-            </div>
-            <div className="cell small-12 medium-7">
-                <img src={testImg} alt=""/>
-            </div>
-        </div>
-        <div className="grid-x grid-padding-x">
-            <div className="cell small-12 medium-5">
-                National trust
-            </div>
-            <div className="cell small-12 medium-7">
-                <img src={testImg} alt=""/>
-            </div>
-        </div>
+        <h1>Work</h1>
+
+        <ArticleListItem img={nationalTrust} title="National Trust">
+            <p>
+                Accessibility AA
+            </p>
+        </ArticleListItem>
+        
     </React.Fragment>
 );
 

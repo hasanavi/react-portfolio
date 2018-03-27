@@ -1,11 +1,10 @@
-@import '../../../styles/colour';
-@import '../../../styles/mixin';
+@import '../../../styles/all-includes';
 
 .navigation-item {
 
     &__link {
         @include font-dosis (bold);
-        border-top: 3px solid $border-color;
+        @include global-border();
         text-decoration: none;
         color: $primary-color;
         padding: 5px 0 5px 3px;
@@ -17,12 +16,12 @@
         &:hover,
         &:focus,
         &:active {
-            color: $tertiary-color;
+            color: $profile-tertiary-color;
             padding-left: 10px;
         }
 
         &--active {
-            background-color: lighten($tertiary-color,38%);
+            background-color: lighten($profile-tertiary-color,38%);
         }
     }
 }

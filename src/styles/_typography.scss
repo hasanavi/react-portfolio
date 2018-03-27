@@ -1,12 +1,8 @@
-@import './fonts';
-@import './colour';
-@import './mixin';
-
 html,
 body {
     padding: 0;
     margin: 0;
-    color: $primary-color;
+    color: $profile-primary-color;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -14,6 +10,7 @@ h1, h2, h3, h4, h5, h6,
     @include font-dosis(bold);
     margin-bottom: 1rem;
     text-transform: uppercase;
+    margin-top: 0;
 }
 
 h1, .h1 {
@@ -45,7 +42,7 @@ p,
 
 a {
     @include font-dosis(bold);
-    color: $primary-color;
+    color: $profile-primary-color;
 }
 
 b,
@@ -55,11 +52,11 @@ em {
 }
 
 .secondary-color {
-    color: $secondary-color;
+    color: $profile-secondary-color;
 }
 
 .tertiary-color {
-    color: $tertiary-color
+    color: $profile-tertiary-color
 }
 
 .text-center {

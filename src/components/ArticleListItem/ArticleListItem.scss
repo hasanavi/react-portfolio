@@ -1,0 +1,15 @@
+@import '../../styles/all-includes';
+
+.article-list-item {
+    $root: &;
+
+    .cell {
+        @include global-border();
+    }
+
+    & > #{$root}__info-container.cell {
+        @include breakpoint(medium) {
+            margin-right: 40px;
+        }
+    }
+}
