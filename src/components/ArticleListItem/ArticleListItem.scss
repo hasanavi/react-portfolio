@@ -48,6 +48,13 @@
         text-transform: uppercase;
     }
 
+    &__additional-info {
+        margin-top: 10px;
+        a {
+            display: block;
+        }
+    }
+
     &--with-image {
         #{$root}__info-container.cell {
             @include breakpoint(medium) {

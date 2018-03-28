@@ -43,6 +43,12 @@ p,
 a {
     @include font-dosis(bold);
     color: $profile-primary-color;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $profile-tertiary-color;
+    }
 }
 
 b,

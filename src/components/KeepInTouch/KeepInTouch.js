@@ -9,7 +9,7 @@ import twitterIcon from '../../assets/icons/twitter.svg';
 
 const keepInTouch = (props) => (
     <div className='keep-in-touch'>
-        <h2 className="h3 text-center">Lets keep in touch</h2>
+        <h2 className="h3 text-center">Lets keep in touch:</h2>
         <ul className='keep-in-touch__links'>
             <KeeptInTouchLink href='mailto:smile@hasanavi.me' 
                             img={emailIcon} 

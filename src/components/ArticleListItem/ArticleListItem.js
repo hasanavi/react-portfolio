@@ -7,6 +7,7 @@ const articleListItem = (props) => {
     let info2;
     let imgColumn;
     let articleListItemClass = 'grid-x grid-margin-x grid-padding-y article-list-item';
+    let additionalInfo;
     
     if(props.publishDate) {
         publishDate = <time className="h5 article-list-item__time">{props.publishDate}</time>;
@@ -27,6 +28,10 @@ const articleListItem = (props) => {
         articleListItemClass += ' article-list-item--with-image';
     }
 
+    if(props.children) {
+        additionalInfo = <p class="article-list-item__additional-info">{props.children}</p>
+    }
+
     return (
         <div className={articleListItemClass}>
             <div className="cell small-12 medium-auto article-list-item__info-container">
@@ -35,6 +40,7 @@ const articleListItem = (props) => {
                 <span className="article-list-item__info-separator">/</span>
                 <p className="article-list-item__info1">{props.info1}</p>
                 {info2}
+                {additionalInfo}
             </div>
             {imgColumn}
         </div>
