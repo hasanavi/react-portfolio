@@ -1,6 +1,7 @@
 import React from 'react';
 import Intro from '../../components/Intro/Intro';
 import KeepInTouch from '../../components/KeepInTouch/KeepInTouch';
+import { Link } from 'react-router-dom';
 
 import clients from '../../assets/images/clients.png';
 
@@ -14,7 +15,9 @@ const home = (props) => (
         </Intro>
         <KeepInTouch />
         <h2 className="h3 text-center">I've been lucky to work on these projects:</h2>
-        <img src={clients} alt="clients logo" />
+        <Link to="/work">
+            <img src={clients} alt="clients logo" />
+        </Link>
     </React.Fragment>
 );
 

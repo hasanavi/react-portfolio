@@ -4,7 +4,8 @@
 
 
 .main-content {
-
+    padding-bottom: 15px;
+    
     @include breakpoint(medium) {
         padding-top: 75px;
     }
