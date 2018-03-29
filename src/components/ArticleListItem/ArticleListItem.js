@@ -21,7 +21,7 @@ const articleListItem = (props) => {
     }
 
     if(props.img) {
-        imgColumn = <div className="cell small-12 medium-6">
+        imgColumn = <div className="cell small-12 medium-6 article-list-item__image-container">
                         <img src={props.img} alt={props.title}/>
                     </div>;
 
@@ -29,7 +29,7 @@ const articleListItem = (props) => {
     }
 
     if(props.children) {
-        additionalInfo = <p class="article-list-item__additional-info">{props.children}</p>
+        additionalInfo = <p className="article-list-item__additional-info">{props.children}</p>
     }
 
     return (

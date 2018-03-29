@@ -8,13 +8,13 @@
     font-weight: $weight;
 }
 
-@mixin font-work-sans($weight: 400) {
+@mixin font-open-sans($weight: 300) {
     @if $weight == 'bold' {
         $weight: 700;
     } @else {
-        $weight: 400;
+        $weight: 300;
     }
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: $weight;
 }
 

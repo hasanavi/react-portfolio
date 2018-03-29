@@ -1,7 +1,10 @@
 import React from 'react';
 
 const contact = (props) => (
-    <h1>Contact</h1>
+    <React.Fragment>
+        <h1>Contact</h1>
+        <p><strong>In Progress</strong></p>
+    </React.Fragment>
     
 );
 

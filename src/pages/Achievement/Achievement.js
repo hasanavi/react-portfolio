@@ -11,7 +11,7 @@ const achievement = (props) => (
         <h1>Achievement</h1>
 
         <ArticleListItem img={yahooHackImg}
-                        title="Yahoo Hack Europe 2013 - Road buddy"
+                        title="Yahoo Hack Europe - Road buddy"
                         info1="Grand Prize and Firefox OS Winner">
             
             <a href="http://developer.yahoo.com/blogs/ydn/hack-europe-london-draws-hackers-corners-globe-000307942.html" 
@@ -23,14 +23,14 @@ const achievement = (props) => (
         </ArticleListItem>
 
         <ArticleListItem img={accessibilityImg}
-                        title="Accessibility Hack UK 2013 - Visual Eyes"
+                        title="Accessibility Hack UK - Visual Eyes"
                         info1="2nd Prize winner">
             <a href="https://github.com/hasanavi/picture2speech" target="_blank" rel="noopener noreferrer">Application Details</a>
             <a href="http://accessibilityhack.com/" target="_blank" rel="noopener noreferrer">Official page</a>
         </ArticleListItem>
 
         <ArticleListItem img={hackedIo}
-                        title="Hacked.io 2013 - Smart shop asst"
+                        title="Hacked.io - Smart shop asst"
                         info1="Firefox OS Winner">
             <a href="https://github.com/hasanavi/smart-shop-assistant"
                 target="_blank" rel="noopener noreferrer">Application details</a>

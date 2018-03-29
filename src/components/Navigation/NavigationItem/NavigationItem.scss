@@ -6,7 +6,7 @@
         @include font-dosis (bold);
         @include global-border();
         text-decoration: none;
-        color: $profile-primary-color;
+        color: $profile-heading-color;
         padding: 5px 0 5px 3px;
         display: block;
         transition: all 0.3s ease-in;

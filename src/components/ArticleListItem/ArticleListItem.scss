@@ -41,11 +41,8 @@
 
     &__info1,
     &__info2 {
-        @include font-dosis();
-        line-height: 1;
         margin-bottom: 0;
-        font-size: 20px;
-        text-transform: uppercase;
+        font-size: 18px;
     }
 
     &__additional-info {
@@ -71,6 +68,12 @@
                     right: -30px;
                 }
             }
+        }
+
+        #{$root}__image-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     }
 }
