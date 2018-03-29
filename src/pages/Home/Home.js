@@ -16,7 +16,7 @@ const home = (props) => (
         <KeepInTouch />
         <h2 className="h3 text-center">I've been lucky to work on these projects:</h2>
         <Link to="/work">
-            <img src={clients} alt="clients logo" />
+            <img src={clients} alt="all clients logo" />
         </Link>
     </React.Fragment>
 );
