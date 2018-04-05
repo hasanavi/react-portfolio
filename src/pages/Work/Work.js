@@ -3,7 +3,7 @@ import ArticleListItem from '../../components/ArticleListItem/ArticleListItem';
 
 import outfitSuggestion from '../../assets/images/work/outfit-suggestion-using-face-detection.jpg';
 import unilever from '../../assets/images/work/unilever.jpg';
-import emirates from '../../assets/images/work/emirates.jpg';
+// import emirates from '../../assets/images/work/emirates.jpg';
 import nationalTrust from '../../assets/images/work/national-trust.jpg';
 import hsbcLogin from '../../assets/images/work/hsbc-login.jpg';
 import saudiAramco from '../../assets/images/work/saudi-aramco.jpg';
@@ -19,11 +19,11 @@ const work = (props) => (
                         facial gesture and recommend outfit from the next visit - worked at AmazeRealise."
                         info2="React JS, Microsoft face API, Redux, Redux Saga, Reselect, Prop types, SASS, Webpack." />
 
-        <ArticleListItem img={emirates}
+        {/* <ArticleListItem img={emirates}
                         title="Emirates Airline"
                         info1="This high profile international project was rebuild from scratch with modern design and 
                         highly accessibility in mind. - worked at AmazeRealise."
-                        info2="Modular ES6 using browserify, Responsive design, Multi-language, SASS, Docker, Accessibility AA, Webpack." />
+                        info2="Modular ES6 using browserify, Responsive design, Multi-language, SASS, Docker, Accessibility AA, Webpack." /> */}
 
         <ArticleListItem img={unilever}
                         title="Unilever"
