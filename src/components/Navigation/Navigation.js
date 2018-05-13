@@ -7,7 +7,7 @@ const navigation = (props) => (
         <ul className="navigation__list">
             <NavigationItem href="/" text="HOME" />
             <NavigationItem href="/work" text="WORK" />
-            <NavigationItem href="/blog" text="BLOG" />
+            {/* <NavigationItem href="/blog" text="BLOG" /> */}
             <NavigationItem href="/achievement" text="ACHIEVEMENT" />
             <NavigationItem href="/contact" text="CONTACT" />
         </ul>
