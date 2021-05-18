@@ -10,7 +10,7 @@ const home = (props) => (
         <h1>About Me</h1>
         <Intro className="long" >
             <span className="intro-text">Hello, My name is Hasan Azizul Haque</span>
-            <span className="intro-copy">I'm a London based Javascript Developer. I have over 12 years experience (4 years full stack + 8 years front-end) 
+            <span className="intro-copy">I'm a London based Javascript Developer. I have over 14 years experience (5 years full stack + 9 years front-end) 
                 developing web and mobile application. I love building unique, efficient site and passionate about writing clean code.</span>
         </Intro>
         <KeepInTouch />
